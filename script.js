@@ -52,15 +52,15 @@ function generatePassword(upper, lower, number, symbol, length) {
 
 clipBoard.addEventListener("click", () => {
     let txtarea = document.createElement("textarea")
-    txtarea.value = resultSpan.innerText
 
-    if (txtarea) {
-        document.body.appendChild(txtarea)
-        txtarea.select()
-        document.execCommand('copy')
-        txtarea.remove()
-        alert("Your Password is Copied To ClipBoard")
-    }
+
+    txtarea.value = resultSpan.innerText
+    document.body.appendChild(txtarea)
+    txtarea.select()
+    document.execCommand('copy')
+    txtarea.remove()
+    alert("Your Password is Copied To ClipBoard")
+
 
 })
 

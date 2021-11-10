@@ -40,6 +40,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1.2rem;
+  overflow: hidden;
 }
 
 #result {
@@ -48,6 +49,7 @@ h1 {
   background: rgb(210, 105, 30);
   font-size: 2rem;
   padding: 1rem;
+  overflow: hidden;
 }
 
 #copyBtn {
